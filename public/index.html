@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <title>Draw</title>
+</head>
+<body>
+    <button id="clear" onclick="clearCanvas()">Clear</button>
+    <div id="d"></div>
+    <div class="can-wrap">
+        <div id="noise-label">Noise 0%</div>
+        <input type="range" id="noise" min="0" max="100" step="5" value="0" > <br>
+        <canvas id="canvas" width="300" height="300"></canvas>
+        <canvas id="can-small"></canvas>
+        <canvas id="result"></canvas>
+    </div>
+    <script src="s.js"></script>
+</body>
+</html>
